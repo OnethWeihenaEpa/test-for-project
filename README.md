@@ -1,4 +1,4 @@
-# Dobbys-Night-Out
+# Dobbys-Night's-Out
 SE2250 Final Project: https://uwoca.sharepoint.com/:w:/s/syedaghanwaalihamdanigamecorporationtrademark/IQDSgMzt1pInSpi8kIHBwpN6AUw1hgzhhFZ8yDb9gTTSmOg?e=kVmXvS
 
 Game Overview Dobby’s Night Out is a role-playing-game (RPG) where you play and control the actions from the point of view of a hairless cat named Dobby. The main character, Dobby, is required to go through a series of quests, each varying in difficulty. You need to make decisions based on the goal of each level. The levels involve: Turkey (Level 1), Europe (Level 2), Ocean (Level 3), Maritimes (Level 4) and a final boss level, Toronto.
