@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 00d580ef81edf2d43bc613e3994726ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5399977305351599330
+    second: 4CROow_0
+  - first:
+      213: 2636148452024229653
+    second: 4CROow_1
+  - first:
+      213: 9109171599001203587
+    second: 4CROow_2
+  - first:
+      213: 3090283840760477691
+    second: 4CROow_3
+  - first:
+      213: 1755329194153418548
+    second: 4CROow_4
+  - first:
+      213: 4911906421122887887
+    second: 4CROow_5
+  - first:
+      213: -2298187236511570270
+    second: 4CROow_6
+  - first:
+      213: -8384454158892296866
+    second: 4CROow_7
+  - first:
+      213: -1483660914238825645
+    second: 4CROow_8
+  - first:
+      213: -5630593046015297720
+    second: 4CROow_9
+  - first:
+      213: -61699247889004998
+    second: 4CROow_10
+  - first:
+      213: 69547029071355009
+    second: 4CROow_11
+  - first:
+      213: -1299407233498117069
+    second: 4CROow_12
+  - first:
+      213: 3722716330732559088
+    second: 4CROow_13
+  - first:
+      213: -472705571260540878
+    second: 4CROow_14
+  - first:
+      213: 8190031872005704124
+    second: 4CROow_15
+  - first:
+      213: 342621628845910599
+    second: 4CROow_16
+  - first:
+      213: 1345564285234133735
+    second: 4CROow_17
+  - first:
+      213: 6990222575955606878
+    second: 4CROow_18
+  - first:
+      213: -7338212260706637807
+    second: 4CROow_19
+  - first:
+      213: 4181166410793357656
+    second: 4CROow_20
+  - first:
+      213: -314903206093759638
+    second: 4CROow_21
+  - first:
+      213: -2697616982380426056
+    second: 4CROow_22
+  - first:
+      213: -1357382536176641622
+    second: 4CROow_23
+  - first:
+      213: -9061891040095146892
+    second: 4CROow_24
+  - first:
+      213: 3110179984905766576
+    second: 4CROow_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 4CROow_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 46
+        width: 266
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bc857404d6f05b0800000000000000
+      internalID: -5399977305351599330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 108
+        width: 45
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f991adc0b759420800000000000000
+      internalID: 2636148452024229653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 102
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3833b8c8e474a6e70800000000000000
+      internalID: 9109171599001203587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 97
+        width: 204
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf778a7b7c4e2ea20800000000000000
+      internalID: 3090283840760477691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_4
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 99
+        width: 27
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f13691a9e2c5810800000000000000
+      internalID: 1755329194153418548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_5
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 99
+        width: 28
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc07df89dd89a2440800000000000000
+      internalID: 4911906421122887887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_6
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 148
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6246c72e23b10e0800000000000000
+      internalID: -2298187236511570270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 206
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e559daf7d5f64ab80800000000000000
+      internalID: -8384454158892296866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 100
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bd9af524af86be0800000000000000
+      internalID: -1483660914238825645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_9
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 102
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8473971f47d1cd1b0800000000000000
+      internalID: -5630593046015297720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_10
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 47
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36caa66cdcc42ff0800000000000000
+      internalID: -61699247889004998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 47
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c5bfa87a417f000800000000000000
+      internalID: 69547029071355009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 47
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c85c4710497fde0800000000000000
+      internalID: -1299407233498117069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_13
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 55
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa1cdc67ceb9a330800000000000000
+      internalID: 3722716330732559088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_14
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 60
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238daa599cc9079f0800000000000000
+      internalID: -472705571260540878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_15
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 60
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9070e4896d8a170800000000000000
+      internalID: 8190031872005704124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_16
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 47
+        width: 79
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ae9bf5e8c31c400800000000000000
+      internalID: 342621628845910599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_17
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea35db96976ca210800000000000000
+      internalID: 1345564285234133735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_18
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dffb4a562420160800000000000000
+      internalID: 6990222575955606878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_19
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1182a2214de692a90800000000000000
+      internalID: -7338212260706637807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_20
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8511226a2bc760a30800000000000000
+      internalID: 4181166410793357656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_21
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b5626d33d31abf0800000000000000
+      internalID: -314903206093759638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_22
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 4
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc4729a5a3209ad0800000000000000
+      internalID: -2697616982380426056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 9
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa95fda66cb992de0800000000000000
+      internalID: -1357382536176641622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_24
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 9
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c65d96c12bd3280800000000000000
+      internalID: -9061891040095146892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4CROow_25
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 0
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b686d3c734992b20800000000000000
+      internalID: 3110179984905766576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      4CROow_0: -5399977305351599330
+      4CROow_1: 2636148452024229653
+      4CROow_10: -61699247889004998
+      4CROow_11: 69547029071355009
+      4CROow_12: -1299407233498117069
+      4CROow_13: 3722716330732559088
+      4CROow_14: -472705571260540878
+      4CROow_15: 8190031872005704124
+      4CROow_16: 342621628845910599
+      4CROow_17: 1345564285234133735
+      4CROow_18: 6990222575955606878
+      4CROow_19: -7338212260706637807
+      4CROow_2: 9109171599001203587
+      4CROow_20: 4181166410793357656
+      4CROow_21: -314903206093759638
+      4CROow_22: -2697616982380426056
+      4CROow_23: -1357382536176641622
+      4CROow_24: -9061891040095146892
+      4CROow_25: 3110179984905766576
+      4CROow_3: 3090283840760477691
+      4CROow_4: 1755329194153418548
+      4CROow_5: 4911906421122887887
+      4CROow_6: -2298187236511570270
+      4CROow_7: -8384454158892296866
+      4CROow_8: -1483660914238825645
+      4CROow_9: -5630593046015297720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
