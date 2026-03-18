@@ -85,11 +85,11 @@ public class PlayerController : MonoBehaviour
 }
 void OnCollisionEnter(Collision collision)
 {
-    if (collision.gameObject.CompareTag("Spider"))
+    if (collision.gameObject.CompareTag("spider"))
     {
         numSpiders++;
         Debug.Log("Spider touched! Total: " + numSpiders);
-		Destroy(other.gameObject);
+		//Destroy(collision.gameObject.Tag("spider"));
     }
 }
 }
