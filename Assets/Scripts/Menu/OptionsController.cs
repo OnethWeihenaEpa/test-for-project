@@ -17,6 +17,7 @@ public class OptionsController : MonoBehaviour
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private GameObject controlsPanel;
     [SerializeField] private GameObject helpPanel;
+    [SerializeField] private GameObject optionsMenu;
 
     [Header("Whole Menu")]
     [SerializeField] private GameObject optionsMenuRoot;
@@ -57,11 +58,22 @@ public class OptionsController : MonoBehaviour
         HideAllPanels();
         helpPanel.SetActive(true);
     }
+    
+    public static class GameState
+    {
+        public static bool openedFromMainMenu = true;
+    }
 
     public void CloseOptionsMenu()
     {
-        if (optionsMenuRoot != null)
-            optionsMenuRoot.SetActive(false);
+        if (GameState.openedFromMainMenu)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            optionsMenu.SetActive(false);
+        }
     }
 
     private void HideAllPanels()
