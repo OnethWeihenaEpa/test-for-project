@@ -89,7 +89,7 @@ void OnCollisionEnter(Collision collision)
     {
         numSpiders++;
         Debug.Log("Spider touched! Total: " + numSpiders);
-		Destroy(collision.gameObject);
+		// Destroy(other.gameObject);
     }
 }
 }

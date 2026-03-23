@@ -41,9 +41,22 @@ namespace Menu
             nameText.text = character.characterName;
         }
 
+        private void Load()
+        {
+            selectedCharacter = PlayerPrefs.GetInt("SelectedCharacter");
+        }
+
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
+            if (PlayerPrefs.HasKey("SelectedCharacter"))
+            {
+                selectedCharacter = 0;
+            }
+            else
+            {
+                Load();
+            }
             UpdateCharacter(selectedCharacter);
         }
     }
