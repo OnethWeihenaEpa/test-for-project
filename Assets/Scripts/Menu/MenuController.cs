@@ -2,24 +2,26 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MenuController : MonoBehaviour
+namespace Menu
 {
-    [Header("Buttons")]
-    [SerializeField] private Button playButton;
-    [SerializeField] private Button optionsButton;
-    [SerializeField] private Button quitButton;
-    void OnPlayButton()
+    public class MenuController : MonoBehaviour
     {
-        SceneManager.LoadScene(1);
-    }
 
-    void OnQuitButton()
-    {
-        Application.Quit();
-    }
+        public void OnPlayButton()
+        {
+            SceneManager.LoadScene(3); //need to make it the scene to the actual game
+        }
 
-    void OnOptionsButton()
-    {
-        // HideAllPanel();
+        public void OnQuitButton()
+        {
+            Application.Quit();
+        }
+
+        public void OnOptionsButton()
+        {
+            // HideAllPanel();
+            SceneManager.LoadScene(1);
+
+        }
     }
 }
