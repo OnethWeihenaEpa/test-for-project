@@ -4,21 +4,22 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
+    [SerializeField] private InteractionDetector interactionDetector;
     
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float runSpeed = 7f;
     [SerializeField] private bool canSprint = true;
      private float CurrentSpeed;
-     private int numSpiders;
      
     public Vector3 playerMoveDirection;
     // Update is called once per frame
     private bool FacingRight = true;
+    private int numSpiders;
 
     void Update()
     {
         move();
-        
+        Interaction();
     }
 
     void FixedUpdate()
@@ -60,6 +61,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void Interaction()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            interactionDetector?.Interact();
+        }
+    }
+
     private void Flip()
     {
         FacingRight = !FacingRight;
@@ -76,23 +85,21 @@ public class PlayerController : MonoBehaviour
         }
         return false;
     }
-
-	public int getNumSpiders(){
-		return numSpiders;
-
-}
-	public void collectSpider(){
-		numSpiders++;
-}
-void OnTriggerEnter2D(Collider2D other)
-{
-    Debug.Log("Triggered with: " + other.gameObject.name);
-
-    if (other.CompareTag("spider"))
-    {
-        numSpiders++;
-        Debug.Log("Spider touched! Total: " + numSpiders);
-        Destroy(other.gameObject);
+    public int getNumSpiders(){
+        return numSpiders;
     }
-}
+    public void collectSpider(){
+        numSpiders++;
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Triggered with: " + other.gameObject.name);
+
+        if (other.CompareTag("spider"))
+        {
+            numSpiders++;
+            Debug.Log("Spider touched! Total: " + numSpiders);
+            Destroy(other.gameObject);
+        }
+    }
 }

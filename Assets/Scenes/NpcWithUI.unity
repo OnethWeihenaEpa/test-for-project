@@ -263,7 +263,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.6
+  m_Radius: 0.7
 --- !u!114 &188769386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,9 +602,9 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 117553523
-  m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingLayerID: -909080715
+  m_SortingLayer: 2
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -38822,7 +38822,7 @@ TilemapCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 1
-  m_CompositeOrder: 0
+  m_CompositeOrder: 2
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
@@ -38966,6 +38966,7 @@ GameObject:
   - component: {fileID: 716823674}
   - component: {fileID: 716823678}
   - component: {fileID: 716823677}
+  - component: {fileID: 716823679}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -39040,9 +39041,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -909080715
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 117553523
+  m_SortingLayer: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1569650228, guid: 29c3063ec7972754b8fb8b4cdef4b34e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -39116,6 +39117,52 @@ MonoBehaviour:
   runSpeed: 7
   canSprint: 1
   playerMoveDirection: {x: 0, y: 0, z: 0}
+--- !u!61 &716823679
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716823673}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1038919865
 GameObject:
   m_ObjectHideFlags: 0
@@ -43604,7 +43651,7 @@ TilemapCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 1
-  m_CompositeOrder: 0
+  m_CompositeOrder: 2
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
@@ -44322,9 +44369,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -983463087
-  m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingLayerID: 117553523
+  m_SortingLayer: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2122837972990275081, guid: c82127297f32fa24d9de7f496ed2887b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -67107,6 +67154,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7544952481643295029, guid: ae05f39332e2c484e82b5d073a889caa, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7544952481643295029, guid: ae05f39332e2c484e82b5d073a889caa, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7544952481643295029, guid: ae05f39332e2c484e82b5d073a889caa, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 117553523
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -67120,6 +67179,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4340588532832410588, guid: 3412fc7a9c1b8bc4eb7240f9e68c2569, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340588532832410588, guid: 3412fc7a9c1b8bc4eb7240f9e68c2569, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340588532832410588, guid: 3412fc7a9c1b8bc4eb7240f9e68c2569, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 117553523
+      objectReference: {fileID: 0}
     - target: {fileID: 4652736501828387041, guid: 3412fc7a9c1b8bc4eb7240f9e68c2569, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.48
@@ -67252,6 +67323,18 @@ PrefabInstance:
     - target: {fileID: 5301938099293485877, guid: f3b210c626af11845bf91fe09164868f, type: 3}
       propertyPath: m_Name
       value: SyedaGhanwaAliHamdani
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271584538851367919, guid: f3b210c626af11845bf91fe09164868f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271584538851367919, guid: f3b210c626af11845bf91fe09164868f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271584538851367919, guid: f3b210c626af11845bf91fe09164868f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 117553523
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
